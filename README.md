@@ -47,8 +47,7 @@ Automation-Anywhere/
 ├── README.md
 └── tests/fixtures/ # Sample files for upload
 
-yaml
-Copy code
+
 
 ---
 
@@ -70,7 +69,8 @@ Copy code
   - Select File element
 - Configure properties in right panel
 - Save the form
-- Preview the form
+- Preview the form(Preview automatically saves the form)
+- **NOTE:Automation Anywhere community edition does not support file uploads during execution time.**
 - Upload a file and validate upload success
 
 ---
@@ -101,8 +101,9 @@ Copy code
 2️⃣ Run All Tests
     npx playwright test
 3️⃣ Run Tests in Headed Mode
-
 npx playwright test --headed
 4️⃣ Run Specific Test
+For use case 1:npx playwright test --headed
+For use case 2:npx playwright test tests/formUpload.spec.js
+For use case 3:npx playwright test tests/api/api.spec.js
 
-npx playwright test tests/formUpload.spec.js
