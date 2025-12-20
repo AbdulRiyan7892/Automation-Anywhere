@@ -39,8 +39,7 @@ Automation-Anywhere/
 │ ├── messageBox.spec.js # Use Case 1 – Message Box UI
 │ ├── formUpload.spec.js # Use Case 2 – Form + File Upload
 │ ├── learningInstanceAPI.spec.js # Use Case 3 – Learning Instance UI
-│ └── api/
-│ └── api.spec.js # API automation tests
+│ 
 │
 ├── playwright.config.js
 ├── package.json
@@ -101,5 +100,5 @@ Automation-Anywhere/
 2️⃣  Run Specific Test
 For use case 1:npx playwright test --headed tests/messageBox.spec.js
 For use case 2:npx playwright test --headed tests/formUpload.spec.js
-For use case 3:npx playwright test --headed tests/api/api.spec.js
+For use case 3:npx playwright test --headed tests/learningInstanceAPI.spec.js
 
