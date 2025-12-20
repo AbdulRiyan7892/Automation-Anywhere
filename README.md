@@ -98,12 +98,8 @@ Automation-Anywhere/
 
 ### 1️⃣ Install Dependencies
   npm install
-2️⃣ Run All Tests
-    npx playwright test
-3️⃣ Run Tests in Headed Mode
-npx playwright test --headed
-4️⃣ Run Specific Test
-For use case 1:npx playwright test --headed
-For use case 2:npx playwright test tests/formUpload.spec.js
-For use case 3:npx playwright test tests/api/api.spec.js
+2️⃣  Run Specific Test
+For use case 1:npx playwright test --headed tests/messageBox.spec.js
+For use case 2:npx playwright test --headed tests/formUpload.spec.js
+For use case 3:npx playwright test --headed tests/api/api.spec.js
 
